@@ -46,12 +46,8 @@ NAVIGATION
 	display: flex;
 	justify-content: space-between;
 	align-items:baseline;
-
 }
 
-nav.navigation {
-
-}
 
 nav ul {
 	display: flex;
@@ -70,7 +66,6 @@ ul {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: .825em;
-
 }
 
 
@@ -100,6 +95,7 @@ GENERAL
 .wrapper {
 	display: flex;
 	justify-content: center;
+	align-content:: center;
 }
 
 
@@ -148,8 +144,18 @@ p {
 	padding-left: 20px;
 }
 
-
 h1 {
+	font-size: 2.5em;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #718294;
+	padding: 0px;
+	margin: 5px 0px 0px 0px;
+}
+
+h2 {
 	font-size: 1.75em;
 	font-family: 'Oswald', sans-serif;
 	padding: 10px 0 0 0;
@@ -168,13 +174,13 @@ h1 {
 	letter-spacing: 1px;
 	color: #718294;
 	font-weight: 300;
-	padding-top: 0px;
+	padding: 0px;
 
 }
 
 
 
-h2 {
+h3 {
 	font-size: 1.55em;
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
@@ -185,16 +191,7 @@ h2 {
 
 
 
-h4 {
-	font-size: 2.5em;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	text-align: left;
-	letter-spacing: 2px;
-	color: #718294;
-	padding: 0px;
-	margin: 5px 0px 0px 0px;
-}
+
 
 
 #artist, #client, #quoteby{
@@ -212,7 +209,6 @@ SOUNDCLOUD
 *************************************/
 
 .soundcloud {
-	justify-content: center;
 	margin: 0px 0px 10px 0px;
 	max-width: 900px;
 }
@@ -224,27 +220,30 @@ BANDCAMP
 
 #bandhead {
 	margin: 25px 0px 0px 0px;
-	text-align: center;
 }
+
 
 
 .bandcamp {
 	display: flex;
-	flex-direction: column;art
-	margin: 30px 5% 10px;
+	margin: 30px 0% 10px 0%;
+	max-width: 900px;
+
 }	
+
 
  #gallery {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	flex-flow: row wrap;
 	margin: 30px 0px 20px 0px;
+	justify-content: center;
  }
 
 
 .album {
-	width: 27%;
-	min-width: 200px;
+	max-width: 31%;
+	padding: 0 10px;
+	margin: center;
 }
 
 
@@ -278,14 +277,6 @@ VIDEO & EVENTS
 
 .facebook {
 }
-
-/** #videos, #events  {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 20px;
-	text-align: auto;
-}**/
 
 
 
@@ -333,10 +324,8 @@ footer {
 
 .social-icon {
 	height: 25px;
-	margin: 5px;
+	margin: 0 5px;
 	}
-
-
 
 .social-icon:hover {
 	background-color: #CB6E56;
@@ -344,14 +333,10 @@ footer {
 	width: 25px;
 }
 
-
 #social {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	margin-top: 50px;
 }
-
 
 .copyright {
 	text-align: center;

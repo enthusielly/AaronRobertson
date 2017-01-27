@@ -17,20 +17,15 @@ desktop?
 
 @media (max-width: 800px){
 
-#logo {
-	margin: 0px auto;
-	height: auto;
-}
-
-a.logo {
 
 }
 
-h4 {
-  font-size: 2em;
+h1 {
+  font-size: 2.5em;
   letter-spacing: 2px;
   color: #718294;
   padding: 0px;
+  margin: 0;
 }
 
 #subhead {  
@@ -39,6 +34,8 @@ h4 {
   letter-spacing: 1px;
   color: #718294;
   font-weight: 300;
+  padding: 0px;
+  margin: 0;
 }
 
 
@@ -50,15 +47,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin: center;
-  padding: 0 35px;
 }
 
 
 .main-nav {
  background-color: none;
- padding: 0px 10px;
+ padding: 0px 0px 0px 10px;
  justify-content: center;
 }
+
 
 
 p {
@@ -94,46 +91,38 @@ margin: auto;
 
 
 
-.bandcamp {
-  margin: 20px 0px;
-  background-color: #f2f2f2;
-  flex-direction: column;
-  /*
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap; 
-  flex-flow: row wrap; 
-  display: -webkit-box;
-  display: flex;
-*/
-
-} 
 
 
- #gallery {
 
- -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto; 
-  margin: 10px 10%;
-  justify-content: space-around;
-  margin: 5%;
- }
-
-
-.album {
-  max-width: 400px;
-  width: 40%;
-  height: auto;
+#bandhead {
+  font-size: 1.5em;
 }
 
 
 
+.bandcamp {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0% 10px 0%;
+  margin: auto;
+}
 
 
 
+#gallery {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30px 0px 20px 0px;
+  justify-content: center;
+  align-content: stretch;
+ }
 
+
+.album {
+  min-width: 250px;
+  padding: 2px;
+  margin: center;
+}
 
 
 
@@ -145,18 +134,60 @@ margin: auto;
 
 
 @media screen and (max-width: 480px) {
-	#gallery {
+h1 {
+  font-size: 1.75em;
+  letter-spacing: 2px;
+  color: #718294;
+  padding: 0px;
+  margin: 0;
+}
+
+#subhead {  
+  font-size: .75em;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  color: #718294;
+  font-weight: 300;
+  padding: 0px;
+  margin: 0;
+}
+
+#social {
+  margin-top: 5px;
+  margin: auto;
+}
+
+.social-icon {
+  height: 20px;
+  margin: 0 5px;
+  }
+
+.social-icon:hover {
+  background-color: #CB6E56;
+  border-radius: 100%;
+  width: 20px;
+}
+.main-nav {
+  padding: 0px 20px 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .75em;
 }
 
 
-#logo {
-  padding: 0;
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin: center;
+  justify-content: space-around;
+  align-items:center;
 
 }
+
 
 .album {
-  width: 100%;
-  height: auto;
+  width: 90%;
 }
 
 .soundcloud {
@@ -174,13 +205,14 @@ iframe {
 }
 
 h2 {
-  padding: 10px;
+  padding: 0px;
+  font-size: 1.25em;
 }
 
 
 #subhead {  
   margin: auto;  
-  font-size: 1em;
+  font-size: .75em;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 1px;
   color: #718294;
@@ -214,9 +246,18 @@ ul {
   padding: 0;
 }
 
-/* page links */
+li {
+  font-size: .75em;
+
+}
 
 
+p {
+  font-size: .875em;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  padding: 0px  ;
+}
 
 
 
@@ -232,7 +273,7 @@ THIS SECTION FOR TABLET Portrait
 
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-	
+/*	
 #subhead {  
   margin: auto;  
   font-size: .75em;
@@ -254,6 +295,9 @@ nav ul {
   padding-top: 10px; 
 }
 
+
+
+
 /*************************************
 
 THIS SECTION FOR TABLET landscape
@@ -270,7 +314,7 @@ THIS SECTION FOR TABLET landscape
 
 
 @media screen and (min-width: 768px) {
-
+/*
 nav {
 	font-size: 1.125em;
 }
@@ -288,6 +332,7 @@ h2 {
 .navigation {
   display: flex;
   padding: 0 0 0 35px;
+
 }
 
 
