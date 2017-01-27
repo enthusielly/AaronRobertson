@@ -143,6 +143,11 @@ p {
 }
 
 
+.quote {
+	font-style: oblique;
+	padding-left: 20px;
+}
+
 
 h1 {
 	font-size: 1.75em;
@@ -192,12 +197,12 @@ h4 {
 }
 
 
-#artist, #client{
+#artist, #client, #quoteby{
 	font-size: .75em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 0px;
-
+	font-style: normal;
 }
 
 
@@ -261,7 +266,6 @@ VIDEO & EVENTS
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 20px 0px 0px 0px;
-	background-color: pink;
  }
 
 
