@@ -34,13 +34,13 @@ h1 {
   letter-spacing: 1px;
   color: #718294;
   font-weight: 300;
-  padding: 0px;
+  padding: 0px 20px 0 0;
   margin: 0;
 }
 
 
 header {
-	padding: 0px;
+  padding: 0px;
 }
 
 .navigation {
@@ -52,7 +52,6 @@ header {
 
 .main-nav {
  background-color: none;
- padding: 0px 0px 0px 10px;
  justify-content: center;
 }
 
@@ -100,11 +99,12 @@ margin: auto;
 
 
 
-.bandcamp {
+.imagegrid {
   display: flex;
   flex-direction: column;
   margin: 30px 0% 10px 0%;
   margin: auto;
+  max-width: 900px;
 }
 
 
@@ -186,6 +186,15 @@ h1 {
 }
 
 
+.imagegrid {
+  display: flex;
+  margin: 10px 0% 5px 0%;
+  max-width: 90%;
+  justify-content: center;
+}
+
+
+
 .album {
   width: 90%;
 }
@@ -207,6 +216,7 @@ iframe {
 h2 {
   padding: 0px;
   font-size: 1.25em;
+  margin: 0;
 }
 
 
@@ -261,8 +271,19 @@ p {
 
 
 
+#biopic {
+ padding: 5px 0 0 0;
+}
 
 
+#videos, #events  {
+ }
+
+.media {
+  max-width: 80%;
+  padding: 0 5px;
+  margin: auto;
+}
 
 /*************************************
 
@@ -273,7 +294,7 @@ THIS SECTION FOR TABLET Portrait
 
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-/*	
+/*  
 #subhead {  
   margin: auto;  
   font-size: .75em;
@@ -316,17 +337,17 @@ THIS SECTION FOR TABLET landscape
 @media screen and (min-width: 768px) {
 /*
 nav {
-	font-size: 1.125em;
+  font-size: 1.125em;
 }
 
 
 h1 { 
-	font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 h2 {
-	font-size: 1.25em;
-	margin-bottom: 10%;
+  font-size: 1.25em;
+  margin-bottom: 10%;
 }
 
 .navigation {
@@ -362,4 +383,4 @@ THIS SECTION FOR DESKTOP
 @media screen and (min-width: 900px){
 
 
-	
+  

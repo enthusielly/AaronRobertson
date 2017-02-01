@@ -15,6 +15,9 @@ HEADER
 *************************************/
 
 header {
+	height: 150px;
+	max-width: 900px;
+	margin: auto;
 }
 
 
@@ -62,10 +65,11 @@ ul {
 
 /* page links */
 .main-nav {
-	padding: 0px 0px 0px 20px;
+	padding: 0px 0px 50px 20px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: .825em;
+	justify-content:  flex-end;
 }
 
 
@@ -121,12 +125,10 @@ p.title {
 /* site body */
 
 
-body{
- 	font-family: 'Roboto', sans-serif;
- 	background-color: #EEEAE0;
- 	font-weight: 300;
- 	line-height: 1.5;
-	padding: 0 10%;
+body {
+	background-color: #EEEAE0;
+ 	max-width: 900px;
+ 	margin: auto;
 }
 
 
@@ -136,6 +138,8 @@ p {
 	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
+	line-height: 1.5;
+
 }
 
 
@@ -174,7 +178,7 @@ h2 {
 	letter-spacing: 1px;
 	color: #718294;
 	font-weight: 300;
-	padding: 0px;
+	padding: 0px 10px 0 0;
 
 }
 
@@ -209,80 +213,62 @@ SOUNDCLOUD
 *************************************/
 
 .soundcloud {
-	margin: 0px 0px 10px 0px;
+	margin: 0px ;
 	max-width: 900px;
+	padding: 0;
 }
 
 
 /*************************************
-BANDCAMP
+VIDEO & BANDCAMP
 *************************************/
 
-#bandhead {
-	margin: 25px 0px 0px 0px;
-}
-
-
-
-.bandcamp {
+.imagegrid {
 	display: flex;
-	margin: 30px 0% 10px 0%;
+	margin: 0px ;
 	max-width: 900px;
-
+	padding: 0;
 }	
-
-
- #gallery {
-	display: flex;
-	flex-flow: row wrap;
-	margin: 30px 0px 20px 0px;
-	justify-content: center;
- }
-
-
-.album {
-	max-width: 31%;
-	padding: 0 10px;
-	margin: center;
-}
-
-
-
-
-/*************************************
-VIDEO & EVENTS
-*************************************/
-
 
 
 #wrapper {
 	display: flex;
 	flex-direction: column;
+	max-width: 900px;
+	padding: 0;
+	margin: 0px ;
+
 }	
 
-#videos, #events  {
+#videos, #events, #gallery   {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0px;
 	justify-content: space-between;
-	margin: 20px 0px 0px 0px;
+	max-width: 900px;
+	padding: 0;
  }
 
 
 .media {
-	min-width: 500px;
-	min-height: 290px;
-	padding: 0 5px;
-
+	max-width: 280px;
+	padding: 0px;
 }
 
-.facebook {
+iframe, .album  {
+	max-width: 280px;
+	padding: 0px;
+}
+
+.sound {
+	max-width: 900px;
 }
 
 
-
-
-
-
+.fillerchild {
+    width: 280px; /*the width of the images in this example*/
+    height:0; /*Important! for the divs to collapse should they fall in a new row*/
+}
 
 
 
@@ -305,7 +291,6 @@ max-width: 720px;
 
 #biopic {
  max-width: 720px;
- height: auto;
  padding: 20px 0 0 0;
 }
 
@@ -324,7 +309,7 @@ footer {
 
 .social-icon {
 	height: 25px;
-	margin: 0 5px;
+	margin: 35px 5px 0px 5px;
 	}
 
 .social-icon:hover {

@@ -24,6 +24,8 @@
 
 
 
+<section class="imagegrid">	
+			<h2>About Aaron</h2>
 
 <div class="wrapper">
 
@@ -33,7 +35,6 @@
 		<img src="images/wm_MG_1012_720x480.jpg" alt="Aaron Robertson" id="biopic">
 		
 		<section id="bio">
-			<h2>About Aaron</h2>
 			<p>Aaron Robertson is a Composer, Songwriter and Producer based in Toronto, Canada.  Infused with an eclectic DIY spirit, and a compulsion to write songs, Aaron has been writing, recording, and releasing genre-hopping music since he was a teenager.</p>
  
 			<p>While volunteering as the Production Manager at UBC's campus radio station, CITR, Aaron released several low fi home recorded college radio charting singles and EPs under various band names, getting comparisons to Beck and Daniel Johnston. After graduating from university, he studied Irish fiddle music before falling under the spell of avant-garde jazz greats John Zorn and Marc Ribot. He quickly found a mentor in jazz guitarist Karlheinz Kiehlmann with whom he studied guitar, composition, and harmony for many years.</p>
@@ -62,6 +63,7 @@
 
 	</section>
 
+</section>
 
 
 

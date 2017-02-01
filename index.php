@@ -48,12 +48,17 @@
 
 <!--   - - - - - - - - - - BANDCAMP - - - - - - - - - -   -->
 
-<section class="bandcamp">	
-	<h2 id="bandhead">Albums</h2>
+<section class="imagegrid">
 
-		<div id="gallery">
+	<h3>Albums</h3>
 
-<!--					<a href="http://tapeeagles.bandcamp.com/album/tape-eagles" target="_blank"  class="album">
+
+		<section id="videos"> 
+
+
+
+
+					<!--<a href="http://tapeeagles.bandcamp.com/album/tape-eagles" 		target="_blank"  class="album">
 					<img src="images/TapeEagles_Darker.jpg" alt="Tape Eagles Album Art">
 					<p class="title">Tape Eagles, self-titled album<br>
 					<class id="artist">Tape Eagles</p>
@@ -103,9 +108,11 @@
 						<p class="title">Happy Days<br><class id="artist"> Victor Scott</p>
 					</a>
 					<!--	<p class="italic">Original music.</p>  -->
-		</div>
-</section>
 
+
+					<div class="fillerchild"></div>
+</section>
+</section>
 
 
 
