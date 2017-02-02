@@ -214,7 +214,7 @@ SOUNDCLOUD
 
 .soundcloud {
 	margin: 0px ;
-	max-width: 900px;
+	width: 900px;
 	padding: 0;
 }
 
@@ -260,7 +260,7 @@ iframe, .album  {
 	padding: 0px;
 }
 
-.sound {
+iframe.sound {
 	max-width: 900px;
 }
 
